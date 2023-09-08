@@ -1,0 +1,45 @@
+.pr_sec::before{
+    content: "🌬️ Trending Products";
+}
+.pr_sec{
+    margin-bottom: 2rem;
+}
+.pr_card{
+    width: 320px;
+    border: 1px solid #ddd;
+    margin: 1rem .5rem;
+    padding: 1.5rem;
+    border-radius: 1rem;
+    display: flex;
+    flex-direction: column;
+}
+.pr_card  .pr_title{
+    font-size: 1.2rem;
+    font-weight: 700;
+    color: #000;
+    margin: .5rem 0;
+}
+.pr_card .pr_colors, .pr_card .pr_sizes{
+    display: flex;
+    margin: .5rem 0;
+    gap: .3rem;
+}
+.pr_card .pr_colors div{
+    width: 1rem;
+    height: 1rem;
+    border: 1px solid #d9d9d9;
+    border-radius: 50%;
+}
+
+.pr_card .pr_colors div:nth-child(1){
+    background: red;
+}
+.pr_card .pr_colors div:nth-child(2){
+    background: #3378ff;
+}
+.pr_card .pr_colors div:nth-child(3){
+    background: green;
+}
+.pr_card .pr_colors div:nth-child(4){
+    background: brown;
+}
