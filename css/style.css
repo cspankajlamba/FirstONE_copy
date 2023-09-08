@@ -898,7 +898,6 @@ input {
     position: relative;
     left:45%;
 }
-
 .pr_container{
     margin: 6rem 1.5rem 4rem;
 }
@@ -907,4 +906,7 @@ input {
     flex-direction: row;
     flex-wrap: wrap;
     gap: 20px;
+}
+.aboutpage img{
+    width: 1.5rem;
 }
